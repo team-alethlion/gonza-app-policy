@@ -4,127 +4,226 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terms & Conditions - Gonza Printer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: #222222;
+      background-color: #fcfcfc;
+      margin: 0;
+      padding: 0;
+    }
+    .document-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 60px 50px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .nav-bar {
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      color: #555555;
+    }
+    .nav-bar a {
+      color: #2563eb;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: 500;
+    }
+    .nav-bar a:hover {
+      text-decoration: underline;
+    }
+    .nav-bar a.active {
+      color: #111827;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #111827;
+      margin-top: 0;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .doc-meta {
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #111827;
+      padding-bottom: 12px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #111827;
+      margin-top: 28px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 14px;
+      font-size: 15px;
+      color: #374151;
+      text-align: justify;
+    }
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 14px;
+      padding-left: 24px;
+      font-size: 15px;
+      color: #374151;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .contact-box {
+      margin-top: 25px;
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      padding: 16px 20px;
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 40px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 15px;
+      font-size: 12px;
+      color: #6b7280;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .document-container {
+        margin: 0;
+        padding: 30px 20px;
+        border: none;
+        box-shadow: none;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      p, ul, ol {
+        text-align: left;
+      }
+    }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+<body>
 
-  <!-- Navigation Header -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="flex items-center gap-3 font-bold text-lg text-slate-900 hover:text-blue-600 transition">
-        <div class="h-9 w-9 rounded-lg bg-blue-600 text-white flex items-center justify-center font-extrabold text-xl shadow-sm">G</div>
-        <span>Gonza Systems</span>
-      </a>
-      <nav class="flex items-center gap-4 text-sm font-medium text-slate-600">
-        <a href="index.html" class="hover:text-blue-600 transition">All Policies</a>
-        <a href="printer-privacy.html" class="hover:text-blue-600 transition">Printer Privacy</a>
-      </nav>
-    </div>
-  </header>
+<div class="document-container">
+  <!-- Document Navigation Links -->
+  <div class="nav-bar">
+    <a href="printer-privacy.html">Privacy Policy</a>
+    <a href="printer-terms.html" class="active">Terms &amp; Conditions</a>
+    <a href="data-deletion.html">Data Deletion Instructions</a>
+  </div>
 
-  <!-- Main Content -->
-  <main class="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-10">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-slate-200 space-y-8">
-      
-      <!-- Document Header -->
-      <div class="border-b border-slate-100 pb-6">
-        <div class="inline-block px-3 py-1 bg-amber-50 text-amber-800 text-xs font-semibold rounded-full mb-3">Terms of Service</div>
-        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Terms & Conditions for Gonza Printer</h1>
-        <p class="text-slate-500 text-sm mt-2">Last Updated: August 29, 2026</p>
-      </div>
+  <!-- Document Header -->
+  <h1>Terms and Conditions</h1>
+  <div class="doc-meta">
+    <strong>Application:</strong> Gonza Printer &nbsp;|&nbsp; 
+    <strong>Developer:</strong> Gonza Systems &nbsp;|&nbsp; 
+    <strong>Effective Date:</strong> August 29, 2026 &nbsp;|&nbsp; 
+    <strong>Location:</strong> Kampala, Uganda
+  </div>
 
-      <!-- Section 1 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">1. Acceptance of Terms</h2>
-        <p class="text-slate-600 leading-relaxed">
-          These Terms and Conditions ("Terms") govern your use of the <strong>Gonza Printer</strong> mobile companion application (the "Application"), developed and maintained by <strong>Gonza Systems</strong> ("Service Provider", "we", "us", or "our").
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          By downloading, installing, or using the Application, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, please do not use the Application.
-        </p>
-      </section>
+  <!-- Section 1 -->
+  <h2>1. Agreement to Terms</h2>
+  <p>
+    These Terms and Conditions ("Terms") constitute a legally binding agreement between you and <strong>Gonza Systems</strong> ("Service Provider", "we", "us", or "our") concerning your access to and use of the <strong>Gonza Printer</strong> mobile application (the "Application").
+  </p>
+  <p>
+    By downloading, installing, or using the Application, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you must immediately cease use of the Application and uninstall it from your device.
+  </p>
 
-      <!-- Section 2 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">2. Description of Application & License Grant</h2>
-        <p class="text-slate-600 leading-relaxed">
-          Gonza Printer is a hardware utility application designed to connect with ESC/POS standard thermal receipt printers via Bluetooth and local Wi-Fi networks.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          Subject to your adherence to these Terms, the Service Provider grants you a limited, revocable, non-exclusive, non-transferable license to install and execute the Application on your compatible mobile devices for your personal or internal business operations.
-        </p>
-      </section>
+  <!-- Section 2 -->
+  <h2>2. License Grant and Permitted Use</h2>
+  <p>
+    Subject to your adherence to these Terms, the Service Provider grants you a revocable, non-exclusive, non-transferable, limited license to install and use the Application on compatible mobile devices under your control solely for your business or personal receipt printing operations.
+  </p>
+  <p>
+    <strong>Restrictions:</strong> You agree that you shall not:
+  </p>
+  <ul>
+    <li>Decompile, reverse-engineer, disassemble, attempt to derive the source code of, or decrypt the Application;</li>
+    <li>Make any modification, adaptation, improvement, enhancement, translation, or derivative work from the Application;</li>
+    <li>Violate any applicable laws, rules, or regulations in connection with your access or use of the Application;</li>
+    <li>Remove, alter, or obscure any proprietary notice (including any notice of copyright or trademark) posted by the Service Provider.</li>
+  </ul>
 
-      <!-- Section 3 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">3. Thermal Hardware & Connectivity Disclaimers</h2>
-        <div class="space-y-3 text-slate-600 leading-relaxed">
-          <p><strong>Third-Party Thermal Printers:</strong> The Service Provider does not manufacture physical printer hardware. We make no representations or warranties concerning the mechanical reliability, print quality, thermal head lifespan, battery health, or paper feeding mechanism of third-party printers.</p>
-          <p><strong>Wireless Connection & Range:</strong> Bluetooth and Wi-Fi signal reliability depends on your device hardware, physical distance, and local RF interference. You are responsible for ensuring that your mobile device and printer maintain adequate battery charge and wireless proximity during print transactions.</p>
-        </div>
-      </section>
+  <!-- Section 3 -->
+  <h2>3. Hardware, Bluetooth &amp; Thermal Printer Disclaimers</h2>
+  <p>
+    <strong>Third-Party Hardware Compatibility:</strong> The Application is designed to communicate with ESC/POS standard thermal receipt printers via Bluetooth and local Wi-Fi. The Service Provider does not manufacture physical printer hardware and makes no guarantees regarding the hardware longevity, thermal printhead lifespan, paper feeding mechanics, battery performance, or paper compatibility of third-party printers.
+  </p>
+  <p>
+    <strong>Signal and Connectivity:</strong> Bluetooth and local network connections depend on device proximity, physical obstacles, and wireless frequency interference. The Service Provider is not liable for failed or delayed print jobs caused by hardware power loss, paper roll exhaustion, or wireless range limits.
+  </p>
 
-      <!-- Section 4 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">4. Intellectual Property</h2>
-        <p class="text-slate-600 leading-relaxed">
-          All rights, title, and interest in and to the Application, including its source code, user interfaces, branding, trademarks, documentation, and graphical assets, remain the exclusive property of <strong>Gonza Systems</strong>.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          You agree not to reverse engineer, decompile, modify, or create derivative works based on the Application.
-        </p>
-      </section>
+  <!-- Section 4 -->
+  <h2>4. Intellectual Property Rights</h2>
+  <p>
+    All intellectual property rights in the Application—including but not limited to the software code, interface design, algorithms, logos, trademarks, and documentation—are the exclusive property of Gonza Systems. Nothing in these Terms grants you any ownership interest in or to the Application.
+  </p>
 
-      <!-- Section 5 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">5. Limitation of Liability</h2>
-        <p class="text-slate-600 leading-relaxed">
-          To the maximum extent permitted by applicable law, the Application is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> without warranties of any kind.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          In no event shall Gonza Systems be liable for any indirect, special, incidental, or consequential damages (including lost profits, business disruption, or transaction delay) resulting from your use of or inability to use the Application.
-        </p>
-      </section>
+  <!-- Section 5 -->
+  <h2>5. Limitation of Liability</h2>
+  <p>
+    To the maximum extent permitted by applicable law, the Application is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, whether express, statutory, or implied.
+  </p>
+  <p>
+    Under no circumstances shall Gonza Systems, its directors, employees, or agents be liable for any indirect, consequential, exemplary, incidental, special, or punitive damages—including lost profits, lost revenue, loss of data, or business interruption—arising out of or in connection with your use or inability to use the Application.
+  </p>
+  <p>
+    In all cases, the maximum aggregate liability of the Service Provider for any claim arising out of these Terms or the Application shall not exceed the amount actually paid by you (if any) to the Service Provider for the Application during the twelve (12) months preceding the claim.
+  </p>
 
-      <!-- Section 6 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">6. Governing Law & Jurisdiction</h2>
-        <p class="text-slate-600 leading-relaxed">
-          These Terms and Conditions shall be governed by and interpreted under the laws of the <strong>Republic of Uganda</strong>.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          Any disputes arising from these Terms or your use of the Application shall be submitted to the exclusive jurisdiction of the courts of <strong>Kampala, Uganda</strong>.
-        </p>
-      </section>
+  <!-- Section 6 -->
+  <h2>6. Indemnification</h2>
+  <p>
+    You agree to defend, indemnify, and hold harmless Gonza Systems and its officers, directors, and employees from and against any claims, liabilities, damages, judgments, awards, losses, costs, or legal fees resulting from your violation of these Terms or misuse of the Application.
+  </p>
 
-      <!-- Section 7 -->
-      <section class="space-y-3 bg-slate-50 p-6 rounded-xl border border-slate-200">
-        <h2 class="text-xl font-bold text-slate-900">7. Contact Information</h2>
-        <p class="text-slate-600 text-sm leading-relaxed">
-          For inquiries or questions concerning these Terms, contact us:
-        </p>
-        <div class="mt-2 text-sm text-slate-700 space-y-1">
-          <p><strong>Company:</strong> Gonza Systems</p>
-          <p><strong>Email:</strong> <a href="mailto:info@gonzasystems.com" class="text-blue-600 font-medium hover:underline">info@gonzasystems.com</a> / <a href="mailto:gonzasystems@gmail.com" class="text-blue-600 font-medium hover:underline">gonzasystems@gmail.com</a></p>
-          <p><strong>Location:</strong> Kampala, Uganda</p>
-        </div>
-      </section>
+  <!-- Section 7 -->
+  <h2>7. Governing Law and Jurisdiction</h2>
+  <p>
+    These Terms and Conditions shall be governed by and construed in accordance with the substantive laws of the <strong>Republic of Uganda</strong>, without regard to its conflict of law provisions.
+  </p>
+  <p>
+    Any legal suit, action, or proceeding arising out of or related to these Terms or the Application shall be instituted exclusively in the competent courts located in <strong>Kampala, Uganda</strong>.
+  </p>
 
-    </div>
-  </main>
+  <!-- Section 8 -->
+  <h2>8. Severability and Amendments</h2>
+  <p>
+    If any provision of these Terms is held to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect.
+  </p>
+  <p>
+    We reserve the right to revise these Terms at any time. Updated versions will take effect immediately upon posting to this page.
+  </p>
 
-  <!-- Footer -->
-  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
-    <div class="max-w-4xl mx-auto px-4">
-      <p>&copy; 2026 Gonza Systems. All rights reserved. Kampala, Uganda.</p>
-    </div>
-  </footer>
+  <!-- Section 9 -->
+  <h2>9. Contact Information</h2>
+  <p>
+    If you have any questions, complaints, or legal inquiries regarding these Terms and Conditions, please contact us:
+  </p>
+  <div class="contact-box">
+    <strong>Gonza Systems</strong><br>
+    Legal Department: <a href="mailto:info@gonzasystems.com">info@gonzasystems.com</a><br>
+    Customer Support: <a href="mailto:gonzasystems@gmail.com">gonzasystems@gmail.com</a><br>
+    Physical Address: Kampala, Uganda
+  </div>
+
+  <div class="footer">
+    &copy; 2026 Gonza Systems. All rights reserved. Registered in Kampala, Uganda.
+  </div>
+</div>
 
 </body>
 </html>

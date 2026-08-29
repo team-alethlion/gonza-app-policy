@@ -4,132 +4,234 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - Gonza Printer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: #222222;
+      background-color: #fcfcfc;
+      margin: 0;
+      padding: 0;
+    }
+    .document-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 60px 50px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .nav-bar {
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      color: #555555;
+    }
+    .nav-bar a {
+      color: #2563eb;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: 500;
+    }
+    .nav-bar a:hover {
+      text-decoration: underline;
+    }
+    .nav-bar a.active {
+      color: #111827;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #111827;
+      margin-top: 0;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .doc-meta {
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #111827;
+      padding-bottom: 12px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #111827;
+      margin-top: 28px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 14px;
+      font-size: 15px;
+      color: #374151;
+      text-align: justify;
+    }
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 14px;
+      padding-left: 24px;
+      font-size: 15px;
+      color: #374151;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    code {
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 13px;
+      background-color: #f3f4f6;
+      padding: 2px 5px;
+      border-radius: 3px;
+      border: 1px solid #e5e7eb;
+    }
+    .contact-box {
+      margin-top: 25px;
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      padding: 16px 20px;
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 40px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 15px;
+      font-size: 12px;
+      color: #6b7280;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .document-container {
+        margin: 0;
+        padding: 30px 20px;
+        border: none;
+        box-shadow: none;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      p, ul, ol {
+        text-align: left;
+      }
+    }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+<body>
 
-  <!-- Navigation Header -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="flex items-center gap-3 font-bold text-lg text-slate-900 hover:text-blue-600 transition">
-        <div class="h-9 w-9 rounded-lg bg-blue-600 text-white flex items-center justify-center font-extrabold text-xl shadow-sm">G</div>
-        <span>Gonza Systems</span>
-      </a>
-      <nav class="flex items-center gap-4 text-sm font-medium text-slate-600">
-        <a href="index.html" class="hover:text-blue-600 transition">All Policies</a>
-        <a href="printer-terms.html" class="hover:text-blue-600 transition">Printer Terms</a>
-      </nav>
-    </div>
-  </header>
+<div class="document-container">
+  <!-- Document Navigation Links -->
+  <div class="nav-bar">
+    <a href="printer-privacy.html" class="active">Privacy Policy</a>
+    <a href="printer-terms.html">Terms &amp; Conditions</a>
+    <a href="data-deletion.html">Data Deletion Instructions</a>
+  </div>
 
-  <!-- Main Content -->
-  <main class="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-10">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-slate-200 space-y-8">
-      
-      <!-- Document Header -->
-      <div class="border-b border-slate-100 pb-6">
-        <div class="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full mb-3">Android Application Policy</div>
-        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Privacy Policy for Gonza Printer</h1>
-        <p class="text-slate-500 text-sm mt-2">Last Updated: August 29, 2026</p>
-      </div>
+  <!-- Document Header -->
+  <h1>Privacy Policy</h1>
+  <div class="doc-meta">
+    <strong>Application:</strong> Gonza Printer &nbsp;|&nbsp; 
+    <strong>Developer:</strong> Gonza Systems &nbsp;|&nbsp; 
+    <strong>Effective Date:</strong> August 29, 2026 &nbsp;|&nbsp; 
+    <strong>Location:</strong> Kampala, Uganda
+  </div>
 
-      <!-- Section 1 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">1. Introduction</h2>
-        <p class="text-slate-600 leading-relaxed">
-          Gonza Systems ("we", "our", or "us") is dedicated to protecting your privacy. This Privacy Policy outlines how the <strong>Gonza Printer</strong> mobile application (the "Application") handles information when you use our companion thermal receipt printing service.
-        </p>
-      </section>
+  <!-- Section 1 -->
+  <h2>1. Introduction</h2>
+  <p>
+    This Privacy Policy explains how <strong>Gonza Systems</strong> ("we", "us", or "our") handles information and permissions in connection with the <strong>Gonza Printer</strong> mobile companion application (the "Application").
+  </p>
+  <p>
+    Gonza Printer is a hardware companion service engineered to facilitate local communication and formatting of receipt data between point-of-sale systems and ESC/POS-compatible thermal receipt printers over Bluetooth, Wi-Fi, and local network connections.
+  </p>
 
-      <!-- Section 2 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">2. No Collection of Personal Information</h2>
-        <p class="text-slate-600 leading-relaxed">
-          <strong>Gonza Printer does not collect, store, sell, or transmit any Personally Identifiable Information (PII) or customer data to external servers or third parties.</strong>
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          The Application functions as a local, on-device utility bridge between your business point-of-sale platform and ESC/POS thermal receipt printers.
-        </p>
-      </section>
+  <!-- Section 2 -->
+  <h2>2. Information Collection and Privacy Standards</h2>
+  <p>
+    <strong>Gonza Printer does not collect, record, transmit, harvest, or sell any Personally Identifiable Information (PII) or customer records.</strong>
+  </p>
+  <p>
+    The Application functions strictly as an offline-first hardware driver bridge. We do not maintain user accounts on external cloud servers specifically for this printer driver application, nor do we intercept, inspect, or log receipt printing content for commercial purposes.
+  </p>
 
-      <!-- Section 3 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">3. Device Permissions & Purpose</h2>
-        <p class="text-slate-600 leading-relaxed">
-          To connect with thermal printer hardware and format receipts, the Application requests the following standard Android permissions:
-        </p>
-        <ul class="list-disc list-inside space-y-2 text-slate-600 pl-2">
-          <li><strong class="text-slate-800">Bluetooth Permissions (<code class="text-xs bg-slate-100 px-1 py-0.5 rounded">BLUETOOTH_CONNECT</code>, <code class="text-xs bg-slate-100 px-1 py-0.5 rounded">BLUETOOTH_SCAN</code>):</strong> Used solely to discover nearby Bluetooth POS printers and send receipt print commands.</li>
-          <li><strong class="text-slate-800">Local Network & Wi-Fi (<code class="text-xs bg-slate-100 px-1 py-0.5 rounded">INTERNET</code>, <code class="text-xs bg-slate-100 px-1 py-0.5 rounded">ACCESS_WIFI_STATE</code>):</strong> Used solely to transmit print data to network-connected (LAN/Wi-Fi) thermal printers on your local network.</li>
-          <li><strong class="text-slate-800">Foreground Service (<code class="text-xs bg-slate-100 px-1 py-0.5 rounded">FOREGROUND_SERVICE</code>):</strong> Used to maintain an active print queue in the background without dropping communication during active business hours.</li>
-          <li><strong class="text-slate-800">Notifications (<code class="text-xs bg-slate-100 px-1 py-0.5 rounded">POST_NOTIFICATIONS</code>):</strong> Used to notify users of printer connectivity state and print job status.</li>
-        </ul>
-      </section>
+  <!-- Section 3 -->
+  <h2>3. Device Permissions &amp; Usage</h2>
+  <p>
+    To perform thermal receipt printing and establish hardware connections, the Application requires access to specific device features under standard Android operating system permissions:
+  </p>
+  <ul>
+    <li>
+      <strong>Bluetooth Permissions (<code>BLUETOOTH</code>, <code>BLUETOOTH_CONNECT</code>, <code>BLUETOOTH_SCAN</code>):</strong> 
+      Required exclusively to scan for, pair with, and transmit raw ESC/POS binary print commands to nearby thermal receipt printers. Location-related Bluetooth flags are configured strictly for hardware discovery (never for user tracking).
+    </li>
+    <li>
+      <strong>Local Network &amp; Wi-Fi Access (<code>INTERNET</code>, <code>ACCESS_WIFI_STATE</code>):</strong> 
+      Required exclusively to transmit print commands to network-connected thermal receipt printers (LAN / Wi-Fi IP printing) on the local area network.
+    </li>
+    <li>
+      <strong>Foreground Service (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_CONNECTED_DEVICE</code>):</strong> 
+      Required to maintain an active, reliable connection with the thermal printer during active business hours and prevent Android from terminating print jobs mid-transaction.
+    </li>
+    <li>
+      <strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> 
+      Used solely to display ongoing printer connectivity status and alerts regarding print job completion or transmission errors.
+    </li>
+  </ul>
 
-      <!-- Section 4 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">4. Data Processing & Local Storage</h2>
-        <p class="text-slate-600 leading-relaxed">
-          All receipt and invoice data (e.g., item descriptions, prices, business totals) is processed in volatile device memory and directly transmitted to your selected printer. No print payload is analyzed, harvested, or sent to external servers.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          Your printer configuration (such as selected printer MAC address, paper width of 58mm/80mm, and character encoding) is stored strictly locally on your device via Android private storage.
-        </p>
-      </section>
+  <!-- Section 4 -->
+  <h2>4. Data Processing &amp; Local Storage</h2>
+  <p>
+    <strong>Volatile In-Memory Processing:</strong> All receipt text, item lines, amounts, and customer receipt layouts received for printing are processed in temporary volatile memory and routed directly to the connected printer. No print payload is stored persistently or transmitted to external parties.
+  </p>
+  <p>
+    <strong>Local Preferences:</strong> The Application stores non-personal hardware preferences (such as the MAC address of your paired printer, paper width formatting of 58mm or 80mm, and character encoding settings) locally on your device using Android's private <code>SharedPreferences</code> storage.
+  </p>
 
-      <!-- Section 5 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">5. Third-Party Services & Tracking</h2>
-        <ul class="list-disc list-inside space-y-1 text-slate-600 pl-2">
-          <li><strong>No Ad Networks:</strong> The Application contains no third-party advertisements or ad-tracking SDKs.</li>
-          <li><strong>No Behavioral Tracking:</strong> We do not monitor, profile, or track your activity across other applications or websites.</li>
-        </ul>
-      </section>
+  <!-- Section 5 -->
+  <h2>5. Third-Party Services and Analytics</h2>
+  <p>
+    The Application does not integrate third-party advertising SDKs, behavioral tracking cookies, or commercial analytics trackers. No data generated during printing operations is shared with or accessible to third-party vendors.
+  </p>
 
-      <!-- Section 6 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">6. Children's Privacy</h2>
-        <p class="text-slate-600 leading-relaxed">
-          The Application is intended as a commercial business tool and does not address anyone under the age of 13. We do not knowingly collect personal data from children under 13.
-        </p>
-      </section>
+  <!-- Section 6 -->
+  <h2>6. Children's Privacy</h2>
+  <p>
+    The Application is a commercial point-of-sale hardware utility designed for business use and is not directed to individuals under the age of 13. We do not knowingly solicit or collect personal information from children under 13.
+  </p>
 
-      <!-- Section 7 -->
-      <section class="space-y-3">
-        <h2 class="text-xl font-bold text-slate-900">7. Changes to This Policy</h2>
-        <p class="text-slate-600 leading-relaxed">
-          We may update this Privacy Policy from time to time. Any updates will be reflected on this page with an updated revision date.
-        </p>
-      </section>
+  <!-- Section 7 -->
+  <h2>7. Security Practices</h2>
+  <p>
+    We prioritize the security and integrity of your printing transactions. All data transfers between your mobile device and the thermal printer occur across direct, local communication channels (Bluetooth or local Wi-Fi subnet) within your immediate physical or network perimeter.
+  </p>
 
-      <!-- Section 8 -->
-      <section class="space-y-3 bg-slate-50 p-6 rounded-xl border border-slate-200">
-        <h2 class="text-xl font-bold text-slate-900">8. Contact Information</h2>
-        <p class="text-slate-600 text-sm leading-relaxed">
-          If you have any questions or inquiries regarding this Privacy Policy, please contact us:
-        </p>
-        <div class="mt-2 text-sm text-slate-700 space-y-1">
-          <p><strong>Company:</strong> Gonza Systems</p>
-          <p><strong>Email:</strong> <a href="mailto:info@gonzasystems.com" class="text-blue-600 font-medium hover:underline">info@gonzasystems.com</a> / <a href="mailto:gonzasystems@gmail.com" class="text-blue-600 font-medium hover:underline">gonzasystems@gmail.com</a></p>
-          <p><strong>Location:</strong> Kampala, Uganda</p>
-        </div>
-      </section>
+  <!-- Section 8 -->
+  <h2>8. Changes to This Privacy Policy</h2>
+  <p>
+    We may revise this Privacy Policy periodically to reflect updates in operating system requirements or hardware standards. Any modifications will be posted to this page with an updated "Effective Date" at the top of the document.
+  </p>
 
-    </div>
-  </main>
+  <!-- Section 9 -->
+  <h2>9. Contact Information</h2>
+  <p>
+    For any questions, legal inquiries, or technical clarifications regarding this Privacy Policy or our operational practices, please contact us using the details below:
+  </p>
+  <div class="contact-box">
+    <strong>Gonza Systems</strong><br>
+    Legal &amp; Compliance Inquiries: <a href="mailto:info@gonzasystems.com">info@gonzasystems.com</a><br>
+    Support: <a href="mailto:gonzasystems@gmail.com">gonzasystems@gmail.com</a><br>
+    Headquarters: Kampala, Uganda
+  </div>
 
-  <!-- Footer -->
-  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
-    <div class="max-w-4xl mx-auto px-4">
-      <p>&copy; 2026 Gonza Systems. All rights reserved. Kampala, Uganda.</p>
-    </div>
-  </footer>
+  <div class="footer">
+    &copy; 2026 Gonza Systems. All rights reserved. Registered in Kampala, Uganda.
+  </div>
+</div>
 
 </body>
 </html>
